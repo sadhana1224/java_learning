@@ -16,6 +16,7 @@ public class VariablesEx {
           
           ticketPrice=9000;
           
+          
           System.out.println(ticketPrice);
           
           System.out.println("The price of the ticket is "+ticketPrice);
@@ -23,6 +24,8 @@ public class VariablesEx {
           System.out.println("Serial number is "+SNo);
           System.out.println("The gender is  "+gender);
           System.out.println("The name is  "+name);
+          
+          
 	}
 
 }
