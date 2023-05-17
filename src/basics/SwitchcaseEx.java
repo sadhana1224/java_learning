@@ -1,0 +1,55 @@
+package basics;
+
+public class SwitchcaseEx {
+
+	public static void main(String[] args) {
+            int m=12;
+            String month="";  //it is an empty string..this varriable can be access throughout the code
+            
+            switch(m)
+            {
+            
+            case 1:
+          	  month="January";
+          	  break;
+            case 2:
+          	  month="Febraury";
+          	  break;
+            case 3:
+          	  month="March";
+          	  break;
+            case 4:
+          	  month="April";
+          	  break;
+            case 5:
+          	  month="May";
+          	  break;
+            case 6:
+          	  month="June";
+          	  break;
+            case 7:
+          	  month="July";
+          	  break;
+            case 8:
+          	  month="August";
+          	  break;
+            case 9:
+          	  month="September";
+          	  break;
+            case 10:
+          	  month="October";
+          	  break;
+            case 11:
+          	  month="November";
+          	  break;
+            case 12:
+          	  month="December";
+          	  break;
+          	  default:
+          		  System.out.println("This is not a valid month");
+          		  
+            }
+            System.out.println("This month name for   "+m+ " is " +month);
+	}
+
+}
