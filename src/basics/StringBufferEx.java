@@ -28,6 +28,7 @@ public class StringBufferEx {
 		System.out.println("after insert :" +sbb);
 		
 		//delete method
+		//begin  index is inclusive whereas end index is exclusive (endindex-1)
 		sbb.delete(2, 6);
 		System.out.println("after delete : "+sbb);
 		
@@ -39,7 +40,7 @@ public class StringBufferEx {
 		sbb2.reverse();
 		System.out.println("after reverse : "+sbb2);
 		
-		//charAt
+		//charAt (fetch the character at the specified index
 		char ch=sbb.charAt(5);
 		System.out.println(ch);
 		//length
@@ -63,7 +64,7 @@ public class StringBufferEx {
 		sbb4.append("hello");
 		System.out.println("Capacity after appending Hello-->"+sbb4.capacity());
 		
-		sbb4.append("java is my favorite language");
+		sbb4.append("java is my favorite language"); //34
 		System.out.println("After inserting characters more than 16-->"+sbb4.capacity());
 		
 		sbb4.ensureCapacity(20);
