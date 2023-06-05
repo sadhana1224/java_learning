@@ -62,6 +62,7 @@ public class StringOtherMethods {
 		boolean bool=false;
 		double d=12.4;
 		char c='a';
+		
 		String intString=String.valueOf(value+"10"); //concatenating string with 10  //integer to string
 		String booleanString=String.valueOf(bool+ " statement"); //boolean to string
 		String doubleString=String.valueOf(d);///String-->you can call a static method w/o creating an object of a class
