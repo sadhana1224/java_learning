@@ -8,11 +8,11 @@ package oops;
 
 public class FinalvariableEx {
 
-	  int rollNo=10;
+	   final int rollNo=10;
 	 
 	 void displayRollNo()
 	 {
-		rollNo=20;
+		//rollNo=20;
 		System.out.println("The roll no is "+rollNo);
 	 }
 

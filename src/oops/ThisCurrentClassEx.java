@@ -23,7 +23,7 @@ class Student
 	void displayStudentData() {
 		String course="Computer Science";
 		System.out.println("The Student rollno is "+rollNo+" and his name and marks are "+name+" "+marks);
-		System.out.println("The course name is "+course);
+		//System.out.println("The course name is "+course);
 
 	}
 }
