@@ -1,5 +1,5 @@
 package oops;  //access modifiers  // access in same package
-
+//my program
 public class ProtectedEx3 {
 	
 	protected int val=10;
