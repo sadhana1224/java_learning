@@ -35,7 +35,7 @@ public class StaticVariable {
 }
 
 */
-
+/*
 //static method example
 class Vehicle1
 {
@@ -82,3 +82,65 @@ public class StaticVariable {
 	}
 
 }
+*/
+
+/*
+//static block
+class Vehicle2
+{
+	String color="blue";
+	int price=1200000;
+	
+	Vehicle2()
+	{
+		System.out.println("inside the constructor");
+	}
+	
+	void display()
+	{
+		System.out.println(color +" "+ price);
+	}
+	static  //static block
+	{
+		System.out.println("inside static block"); // it will be executed first .automstically called
+	}
+}
+public class StaticVariable{
+	public static void main(String[] args)
+	{
+		Vehicle2 v=new Vehicle2();
+		v.display();
+		
+	}
+}
+*/
+
+//instance block
+class VehicleDet
+{
+	int vehiclespeed;
+	
+	VehicleDet()
+	{
+		System.out.println("inside the constructor");
+		System.out.println(vehiclespeed);
+	}
+	//instance block
+	{
+		vehiclespeed=120;
+		System.out.println("inside instance block");
+	}
+	
+	static {
+		System.out.println("inside static block");
+	}
+}
+
+public class StaticVariable{
+	public static void main(String[] args)
+	{
+		VehicleDet v=new VehicleDet();
+		
+	}
+
+	}
