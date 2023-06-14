@@ -21,7 +21,7 @@ class ICICI extends Bank
 		System.out.println("interest rate is 8");
 	}
 }
-class Axis extends Bank
+class Axis1 extends Bank
 {
 	void interest()
 	{
@@ -39,7 +39,7 @@ public class MethodOverriding1 {
 		ICICI in=new ICICI();
 		in.interest();
 		
-		Axis a=new Axis();
+		Axis1 a=new Axis1();
 		a.interest();
 	}
 
