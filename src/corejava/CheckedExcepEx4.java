@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
+import java.util.ArrayList;
+import java.io.*;
+
 public class CheckedExcepEx4 {
 
 	public static void main(String[] args) {
