@@ -71,15 +71,7 @@ public class ArrayListEx {
 			System.out.println(it.next());
 		}
 
-		
 
-		
-
-		
-
-
-		
-		
 
 	}
 
