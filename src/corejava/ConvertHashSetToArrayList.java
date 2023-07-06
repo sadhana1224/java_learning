@@ -17,6 +17,14 @@ public class ConvertHashSetToArrayList {
 		System.out.println("hashset  -->"+h4);
 		System.out.println("arraylist-->"+al);
 		
+		Collections.sort(al);
+		System.out.println("after sort--> "+al);
+		
+		Collections.sort(al,Collections.reverseOrder());
+		System.out.println("after reverse--->" +al);
+		
+		Collections.shuffle(al);
+		System.out.println("after shuffle-->" +al);
 	}
 
 }
