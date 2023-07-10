@@ -1,6 +1,6 @@
 package collectionsPractice;
 import java.util.*;
-public class LinkedList1Praqctice {
+public class LinkedList1Practice {
 
 	public static void main(String[] args) {
 		LinkedList<Integer> l1=new LinkedList<Integer>();
