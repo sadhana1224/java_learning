@@ -29,6 +29,7 @@ public class LInkedList1 {
 		
 		Collections.shuffle(ll);
 		System.out.println("after one shuffle "+ll);
+		ll1.getFirst();
 		
 		
 	}
