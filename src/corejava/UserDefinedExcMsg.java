@@ -5,8 +5,8 @@ public class UserDefinedExcMsg {
 	public static void main(String[] args) {
 
 		try {
-			//String str="123";
-			String str="abc";
+			String str="123";
+			//String str="abc";
 			System.out.println(Integer.parseInt(str));
 		}
 		catch(Exception ex)
