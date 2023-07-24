@@ -1,5 +1,5 @@
 package oops;  //my program
-/*
+
 //current class method
 class fruits
 {
@@ -24,8 +24,7 @@ public class ThisCcMethodandCons {
 	}
 
 }
-*/
-
+/*
 //current class constructor
 class fruits
 {
@@ -45,5 +44,8 @@ public static void main(String[] args)
 {
 	fruits f=new fruits("orange");
 	//f.fruits();
+	
+	 
 }
 }
+*/

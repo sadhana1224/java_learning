@@ -10,7 +10,7 @@ public class TreeSetEx {
 		ts.add(50);
 		ts.add(10);
 		ts.add(100);
-		ts.add(90);
+		ts.add(null);
 		ts.add(30);
 		ts.add(30);
 		
