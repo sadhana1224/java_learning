@@ -1,6 +1,8 @@
 package practice;
 
-public class Star {
+import oops.ProtectedEx;
+
+public class Star  {
 
 	public static void main(String[] args) {
 
@@ -9,5 +11,6 @@ public class Star {
 			System.out.print("*");
 		}
 	}
+	
 
 }
