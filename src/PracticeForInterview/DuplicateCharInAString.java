@@ -1,21 +1,31 @@
 package PracticeForInterview;
 
+import java.util.HashSet;
+
 public class DuplicateCharInAString {
 
 	public static void main(String[] args) {
 
-		String str="subashini";
+	String st="selenium learning";
 		
-		for(int i=0;i<str.length();i++)
+		
+		HashSet seen=new HashSet();
+		HashSet<Character> dup=new HashSet<Character>();
+		
+		for(int i=0;i<st.length();i++)
 		{
-			for(int j=i+1;j<str.length();j++)
+			char cc=st.charAt(i);
+			if(cc!=' ')
 			{
-				if(str.charAt(i)==str.charAt(j))
+				if(!seen.add(cc))
 				{
-					System.out.println("dulicates char are-->"+str.charAt(i));
+					dup.add(cc);
 				}
 			}
 		}
+		System.out.println(dup);
+
 	}
 
 }
+

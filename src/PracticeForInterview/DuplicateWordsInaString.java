@@ -20,6 +20,14 @@ public class DuplicateWordsInaString {
 			if(!uniqueWords.add(st))
 			repeatWords.add(st);
 		}
+		/*for(int i=0;i<sp.length;i++)
+		{
+			if(!seen.add(sp[i]))
+			{
+				dup.add(sp[i]);
+			}
+		}
+		*/
 		//System.out.println(uniqueWords);
 		System.out.println("duplicate words-->"+repeatWords);
 	}

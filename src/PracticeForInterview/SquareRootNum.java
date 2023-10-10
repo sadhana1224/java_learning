@@ -21,6 +21,14 @@ public class SquareRootNum {
 		}while((temp-sr)!=0); //4-3 !=0 (again go loop) ,,,,
 		//if equals print the sr value
 		System.out.println(sr);
+		int a = 0 ,b=10;
+		if(a>b)
+		{
+			if(a<10)
+			{
+				
+			}
+		}
 		
 	}
 
