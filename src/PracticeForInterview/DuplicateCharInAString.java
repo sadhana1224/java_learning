@@ -6,21 +6,21 @@ public class DuplicateCharInAString {
 
 	public static void main(String[] args) {
 
-	String st="selenium learning";
-		
-		
-		HashSet seen=new HashSet();
-		HashSet<Character> dup=new HashSet<Character>();
-		
-		for(int i=0;i<st.length();i++)
+
+
+
+		String st="sadhannfhna";
+
+		char[] c=st.toCharArray();
+
+		HashSet<Character> seen=new HashSet<>();
+		HashSet<Character> dup=new HashSet<>();
+
+		for(char ch:c)
 		{
-			char cc=st.charAt(i);
-			if(cc!=' ')
+			if(!seen.add(ch))
 			{
-				if(!seen.add(cc))
-				{
-					dup.add(cc);
-				}
+				dup.add(ch);
 			}
 		}
 		System.out.println(dup);
